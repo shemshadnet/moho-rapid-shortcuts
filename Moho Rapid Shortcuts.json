@@ -1,0 +1,3189 @@
+{
+	"Version": "57",
+	"group_platform": "",
+	"group_product": "",
+	"nodeTypeBranch": true,
+	"groupNameKey": "/Application/Title",
+	"__comments__":{
+		"owner" : "shemshad.net",
+		"github" : "github.com/shemshadnet", 
+		"telegram_channel" : "t.me/irMoho",
+		"creator" : "Mohammad Moradi"
+	},
+	"Bindings": [
+		{
+			"group_platform": "mac",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "/Menus/Application/Moho",
+			"Bindings": [
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Application/About",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Application/Preferences",
+					"boundKey": ",",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Application/EditKeyBindings",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Application/Hide",
+					"boundKey": "H",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "alt cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Application/HideOthers",
+					"boundKey": "H",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Application/ShowAll",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Application/Quit",
+					"boundKey": "Q",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "/Menus/File/File",
+			"Bindings": [
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/File/New",
+					"boundKey": "N",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"modifiers_User": "",
+					"actionDescriptionKey": "/Menus/File/NewWorkspace",
+					"boundKey_User": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/File/Open",
+					"boundKey": "O",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/File/Close",
+					"boundKey": "W",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl alt",
+					"actionDescriptionKey": "/Menus/File/CloseAll",
+					"boundKey": "W",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/File/Save",
+					"boundKey": "S",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/File/SaveAs",
+					"boundKey": "S",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl alt",
+					"actionDescriptionKey": "/Menus/File/SaveAll",
+					"boundKey": "S",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/File/Revert",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/File/GatherMedia",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/File/ExportAsVersion9File",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/File/RemoveCommentsAndTags",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/File/ProjectSettings",
+					"boundKey": "P",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/File/ShowInFinder",
+					"boundKey": "",
+					"platform": "mac",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/File/ShowInExplorer",
+					"boundKey": "",
+					"platform": "win",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/File/RefreshMedia",
+					"boundKey": "M",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/File/Preview",
+					"boundKey": "R",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/File/PreviewNoAntialiasing",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/File/PreviewAnimation",
+					"boundKey": "R",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/File/ExportAnimation",
+					"boundKey": "E",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "alt cmd-ctrl",
+					"actionDescriptionKey": "/Menus/File/ExportAnimationWithPreviousSettings",
+					"boundKey": "E",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/File/MohoExporter",
+					"boundKey": "B",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/File/OpenContentFolder",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/File/RelaunchIn32BitMode",
+					"boundKey": "",
+					"platform": "win64",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/File/RelaunchIn64BitMode",
+					"boundKey": "",
+					"platform": "win32",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/File/AddBatchFiles",
+					"boundKey": "O",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl alt",
+					"actionDescriptionKey": "/Menus/File/OpenExportProfile",
+					"boundKey": "O",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl alt",
+					"actionDescriptionKey": "/Menus/File/SaveExportProfile",
+					"boundKey": "S",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/File/Quit",
+					"boundKey": "Q",
+					"platform": "win linux",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"group_platform": "",
+					"group_product": "",
+					"nodeTypeBranch": true,
+					"groupNameKey": "/Menus/File/Import/Import",
+					"Bindings": [
+						{
+							"modifiers": "shift cmd-ctrl",
+							"actionDescriptionKey": "/Menus/File/Import/ImportAny",
+							"boundKey": "Y",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/Import/MohoObject",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/Import/MohoStyles",
+							"boundKey": "",
+							"platform": "",
+							"product": "Pro",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/Import/Image",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/Import/ImageSequence",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/Import/Movie",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/Import/VectorFile",
+							"boundKey": "",
+							"platform": "",
+							"product": "Pro",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/Import/SVGFile",
+							"boundKey": "",
+							"platform": "",
+							"product": "Pro",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/Import/IllustratorFile",
+							"boundKey": "",
+							"platform": "",
+							"product": "Pro",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/Import/EPSFile",
+							"boundKey": "",
+							"platform": "",
+							"product": "Pro",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/Import/TracingImage",
+							"boundKey": "",
+							"platform": "",
+							"product": "Pro",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/Import/AudioFile",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/Import/3DModel",
+							"boundKey": "",
+							"platform": "",
+							"product": "Pro",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/Import/PoserScene",
+							"boundKey": "",
+							"platform": "",
+							"product": "Pro",
+							"readonly": false,
+							"nodeTypeBranch": false
+						}
+					]
+				},
+				{
+					"group_platform": "",
+					"group_product": "",
+					"nodeTypeBranch": true,
+					"groupNameKey": "/Menus/File/Export/Export",
+					"Bindings": [
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/ExportFBX",
+							"boundKey": "",
+							"platform": "",
+							"product": "Pro",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/ExportOBJ",
+							"boundKey": "",
+							"platform": "",
+							"product": "Pro",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/ExportPOV",
+							"boundKey": "",
+							"platform": "",
+							"product": "Pro",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/ExportSoundtrack",
+							"boundKey": "",
+							"platform": "",
+							"product": "Pro",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/ExportFrameToSVG",
+							"boundKey": "",
+							"platform": "",
+							"product": "Pro",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/ExportStyles",
+							"boundKey": "",
+							"platform": "",
+							"product": "Pro",
+							"readonly": false,
+							"nodeTypeBranch": false
+						}
+					]
+				},
+				{
+					"group_platform": "",
+					"group_product": "",
+					"nodeTypeBranch": true,
+					"groupNameKey": "/Menus/File/Upload/Upload",
+					"Bindings": [
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/UploadToYouTube",
+							"boundKey": "",
+							"platform": "mac win",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/File/UploadToFacebook",
+							"boundKey": "",
+							"platform": "mac win",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "/Menus/Edit/Edit",
+			"Bindings": [
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Edit/Undo",
+					"boundKey": "Z",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"modifiers_User": "alt cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Edit/Redo",
+					"boundKey": "Z",
+					"boundKey_User": "Z",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Edit/Cut",
+					"boundKey": "X",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Edit/Copy",
+					"boundKey": "C",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Edit/Paste",
+					"boundKey": "V",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Edit/PasteRelative",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Edit/Clear",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Edit/CopyLayer",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Edit/PasteLayer",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Edit/NormalizeLayerScale",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Edit/ResetLayerScaleNormalization",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Edit/SelectAll",
+					"boundKey": "A",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Edit/SelectNone",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Edit/SelectInverse",
+					"boundKey": "I",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Edit/SelectConnected",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Edit/EditKeyBindings",
+					"boundKey": "",
+					"platform": "win linux",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Edit/Preferences",
+					"boundKey": "",
+					"platform": "win linux",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "/Menus/Draw/Draw",
+			"Bindings": [
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Draw/InsertText",
+					"boundKey": "T",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Draw/SnapToGrid",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "alt cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Draw/ResetLineWidth",
+					"boundKey": "L",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Draw/RandomLineWidth",
+					"boundKey": "D",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Draw/Peak",
+					"boundKey": "P",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Draw/Smooth",
+					"boundKey": "M",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Draw/RaiseShape",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Draw/LowerShape",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Draw/RaiseToFront",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Draw/LowerToBack",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Draw/TraceImage",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Draw/CreateSmartWarpLayer",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Draw/Triangulate2DMesh",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Draw/HideSelectedPoints",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Draw/ShowAllPoints",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Draw/HideShape",
+					"boundKey": "H",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Draw/ShowAllShapes",
+					"boundKey": "U",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Draw/FreezePoints",
+					"boundKey": "F",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Draw/FreezeSelectedPoints",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Draw/FreezeVisiblePoints",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Draw/ResetPoints",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Draw/ResetAllPoints",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "/Menus/Bone/Bone",
+			"Bindings": [
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/ReleasePoints",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/FlexiBindPoints",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/ReleaseLayer",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/FlexiBindLayer",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/ReleaseLayerAndPoints",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Bone/UseSelectedBonesForFlexiBinding",
+					"boundKey": "F",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/CreateSmoothJointForBonePair",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/UseAllBonesForFlexiBinding",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/ResetAllBoneRigging",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/HideSelectedBones",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/HideControlledBones",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/ShowAllBones",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/HideShowShyBones",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/TrackBoneToVideo",
+					"boundKey": "",
+					"platform": "mac win",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/MakeSmartBoneDial",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/EnableAllVitruvianBones",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/DisableAllVitruvianBones",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Bone/FreezePose",
+					"boundKey": "F",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/FreezeSelectedBones",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/FreezeVisibleBones",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/ResetBone",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Bone/ResetAllBones",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "/Menus/Animation/Animation",
+			"Bindings": [
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/AllowFrameSkipping",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/EnableBoneDynamics",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/ConsolidateLayerChannels",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/ResetAllChannels",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/SetLayerStartTime",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/AlignLayerWithCamera",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/SelectAllKeyframes",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/RescaleKeyframes",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/CopyCurrentFrame",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/AddKeyframe",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/AutoFreezeKeyframes",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/UnMuteAllChannels",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/MarkCurrentFrame",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/MarkFrameRange",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/DuplicateMarkedFrames",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/TrackLayerToVideo",
+					"boundKey": "",
+					"platform": "mac win",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Animation/NudgePhysicsObject",
+					"boundKey": "N",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/MuteAudio",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/RestartAudioTrack",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/AudioLevel",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Animation/RestartMovie",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"group_platform": "",
+					"group_product": "",
+					"nodeTypeBranch": true,
+					"groupNameKey": "/Menus/Animation/ClearAnimation/ClearAnimation",
+					"Bindings": [
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/Animation/ClearAnimation/FromLayer",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/Animation/ClearAnimation/FromLayerAfterCurrentFrame",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/Animation/ClearAnimation/FromLayerBeforeCurrentFrame",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/Animation/ClearAnimation/FromLayerAtCurrentFrame",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/Animation/ClearAnimation/FromDocument",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/Animation/ClearAnimation/FromDocumentAfterCurrentFrame",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/Animation/ClearAnimation/FromDocumentBeforeCurrentFrame",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/Animation/ClearAnimation/FromDocumentAtCurrentFrame",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "/Menus/View/View",
+			"Bindings": [
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/View/Reset",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/View/ZoomIn",
+					"boundKey": "=",
+					"platform": "mac",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl alt",
+					"actionDescriptionKey": "/Menus/View/ZoomIn",
+					"boundKey": "9",
+					"platform": "win",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/View/ZoomToLayer",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/View/ZoomToSelection",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/View/ZoomOut",
+					"boundKey": "-",
+					"platform": "mac",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl alt",
+					"actionDescriptionKey": "/Menus/View/ZoomOut",
+					"boundKey": "8",
+					"platform": "win",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/View/EnableGrid",
+					"boundKey": "G",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/View/GridSettings",
+					"boundKey": "G",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/View/DisableGridSnapping",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/View/Show3DAxes",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/View/VideoSafeZones",
+					"boundKey": "V",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/View/ShowRuleOfThirds",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"modifiers_User": "",
+					"actionDescriptionKey": "/Menus/View/ShowOutputOnly",
+					"boundKey": "J",
+					"boundKey_User": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/View/ShowPlayViewControls",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/View/ShowTimelineOptionsToolbar",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/View/TimelineChannels",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/View/EnableOnionSkins",
+					"boundKey": "L",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/View/SelectTracingImage",
+					"boundKey": "Y",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/View/ShowTracingImage",
+					"boundKey": "U",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/View/ShowCurves",
+					"boundKey": "C",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/View/AutoHideCurves",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/View/FadeUnselectedLayers",
+					"boundKey": "A",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/View/SelectedAndActiveSwitchLayer",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/View/DesignMode",
+					"boundKey": "D",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/View/ReturnToMainline",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/View/FBXPreviewMode",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/View/Stereo",
+					"boundKey": "2",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/View/ShowDocumentTabs",
+					"boundKey": "J",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"group_platform": "",
+					"group_product": "Pro",
+					"nodeTypeBranch": true,
+					"groupNameKey": "/Menus/View/Direction/Direction",
+					"Bindings": [
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/View/Direction/Camera",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/View/Direction/Front",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/View/Direction/Top",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/View/Direction/Right",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/View/Direction/Back",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "cmd-ctrl",
+							"actionDescriptionKey": "/Menus/View/Direction/Bottom",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "",
+							"actionDescriptionKey": "/Menus/View/Direction/Left",
+							"boundKey": "",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "/Menus/Window/Window",
+			"Bindings": [
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Window/Tools",
+					"boundKey": "e",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Window/Layers",
+					"boundKey": "K",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Window/Timeline",
+					"boundKey": "[",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Window/Style",
+					"boundKey": "]",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "alt cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Window/Keyframe",
+					"boundKey": "F",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Window/Actions",
+					"boundKey": "K",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Window/Library",
+					"boundKey": "L",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Window/AudioRecording",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Window/PoserParameters",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Window/BlendMorphs",
+					"boundKey": "B",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Window/LayerSettings",
+					"boundKey": "I",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "alt cmd-ctrl",
+					"actionDescriptionKey": "/Menus/Window/LayerComps",
+					"boundKey": "J",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Window/SwitchSelection",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "alt",
+					"actionDescriptionKey": "/Menus/Window/ToggleSecondaryWindows",
+					"boundKey": "1",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"group_platform": "",
+					"group_product": "Pro",
+					"nodeTypeBranch": true,
+					"groupNameKey": "/Menus/Window/Docking/Docking",
+					"Bindings": [
+						{
+							"modifiers": "alt shift cmd-ctrl",
+							"actionDescriptionKey": "/Menus/Window/Docking/Tools",
+							"boundKey": "E",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "alt shift cmd-ctrl",
+							"actionDescriptionKey": "/Menus/Window/Docking/Layers",
+							"boundKey": "K",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "alt shift cmd-ctrl",
+							"actionDescriptionKey": "/Menus/Window/Docking/LayerComps",
+							"boundKey": "J",
+							"platform": "",
+							"product": "Pro",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "alt shift cmd-ctrl",
+							"actionDescriptionKey": "/Menus/Window/Docking/Timeline",
+							"boundKey": "T",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "alt shift cmd-ctrl",
+							"actionDescriptionKey": "/Menus/Window/Docking/Style",
+							"boundKey": "Y",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "alt shift cmd-ctrl",
+							"actionDescriptionKey": "/Menus/Window/Docking/Keyframe",
+							"boundKey": "F",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "alt shift cmd-ctrl",
+							"actionDescriptionKey": "/Menus/Window/Docking/Actions",
+							"boundKey": "M",
+							"platform": "",
+							"product": "Pro",
+							"readonly": false,
+							"nodeTypeBranch": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "/Menus/Help/Help",
+			"Bindings": [
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Help/Tutorials...",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Help/Help...",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Help/OnlineTutorials",
+					"boundKey": "",
+					"platform": "",
+					"product": "StudioPro StudioDebut",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Help/WelcomeScreen",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Help/RegisterProduct",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Help/CommunityForums",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Help/TechnicalSupport",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Help/DownloadBonusContentPack",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Help/OnlineVideoGallery",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Help/AboutMoho",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Help/AboutScripts",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Help/BuyContent",
+					"boundKey": "",
+					"platform": "",
+					"product": "-DebutMAS",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Help/CheckForUpdates",
+					"boundKey": "",
+					"platform": "",
+					"product": "-DebutMAS",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Menus/Help/UpgradeToProfessionalVersion",
+					"boundKey": "",
+					"platform": "",
+					"product": "Debut -DebutMAS",
+					"readonly": false,
+					"nodeTypeBranch": false
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "/Windows/MainLayer/Title",
+			"Bindings": [
+				{
+					"modifiers": "alt shift cmd-ctrl",
+					"actionDescriptionKey": "/Windows/MainLayer/ReloadToolsAndBrushes",
+					"boundKey": "L",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift",
+					"actionDescriptionKey": "/Windows/MainLayer/ActivatePreviousTool",
+					"boundKey": "Z",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Windows/MainLayer/NewFrame",
+					"boundKey": "LM_KEY_F5",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Windows/MainLayer/DuplicateFrame",
+					"boundKey": "LM_KEY_F6",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift",
+					"actionDescriptionKey": "/Windows/MainLayer/DeleteFrame",
+					"boundKey": "LM_KEY_F5",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Windows/MainLayer/StepBackInterval",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Windows/MainLayer/StepForwardInterval",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"group_platform": "",
+					"group_product": "",
+					"nodeTypeBranch": true,
+					"groupNameKey": "/Windows/MainLayer/Current_Edit_View",
+					"Bindings": [
+						{
+							"modifiers": "alt shift",
+							"actionDescriptionKey": "/Windows/MainLayer/CurrentEditView/RotateViewLeft",
+							"boundKey": "{",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						},
+						{
+							"modifiers": "alt shift",
+							"actionDescriptionKey": "/Windows/MainLayer/CurrentEditView/RotateViewRight",
+							"boundKey": "}",
+							"platform": "",
+							"product": "",
+							"readonly": false,
+							"nodeTypeBranch": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "/Windows/Layers/Title",
+			"Bindings": [
+				{
+					"modifiers": "alt",
+					"actionDescriptionKey": "/Windows/Layers/ActivatePreviousSwitchLayerChild",
+					"boundKey": "D",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "alt",
+					"actionDescriptionKey": "/Windows/Layers/ActivateNextSwitchLayerChild",
+					"boundKey": "C",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "alt cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Layers/NewVectorLayer",
+					"boundKey_User": "V",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "alt cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Layers/NewImageLayer",
+					"boundKey_User": "I",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Windows/Layers/NewImageSequence",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "alt cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Layers/NewGroupLayer",
+					"boundKey_User": "G",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "alt cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Layers/GroupWithSelection",
+					"boundKey_User": "G",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "alt cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Layers/NewBoneLayer",
+					"boundKey_User": "B",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "alt cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Layers/NewSwitchLayer",
+					"boundKey_User": "S",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "alt cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Layers/NewFrameByFrameLayer",
+					"boundKey_User": "F",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Windows/Layers/NewParticleLayer",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Windows/Layers/NewNoteLayer",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Windows/Layers/NewAudioLayer",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Windows/Layers/NewPatchLayer",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Windows/Layers/NewTextLayer",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Layers/DuplicateLayer",
+					"boundKey_User": "j",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "alt cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Layers/NewReferenceLayer",
+					"boundKey_User": "R",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "alt cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Layers/DeleteLayer",
+					"boundKey_User": "D",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "/Windows/Style/Title",
+			"Bindings": [
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Windows/Style/IncreaseLineWidth",
+					"boundKey": "]",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "/Windows/Style/DecreaseLineWidth",
+					"boundKey": "[",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "/Windows/Timeline/Title",
+			"Bindings": [
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Timeline/Menus/Interpolation/SetLinear",
+					"boundKey": "1",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Timeline/Menus/Interpolation/SetSmooth",
+					"boundKey": "2",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Timeline/Menus/Interpolation/SetEaseInOut",
+					"boundKey": "3",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Timeline/Menus/Interpolation/SetEaseIn",
+					"boundKey": "4",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Timeline/Menus/Interpolation/SetEaseOut",
+					"boundKey": "5",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Timeline/Menus/Interpolation/SetBezier",
+					"boundKey": "6",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Timeline/Menus/Interpolation/SetStep",
+					"boundKey": "7",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Timeline/Menus/Interpolation/SetNoisy",
+					"boundKey": "8",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Timeline/Menus/Interpolation/SetCycle",
+					"boundKey": "9",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift",
+					"actionDescriptionKey": "/Windows/Timeline/PreviousSelectedKey",
+					"boundKey": "{",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift",
+					"actionDescriptionKey": "/Windows/Timeline/NextSelectedKey",
+					"boundKey": "}",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "alt shift",
+					"actionDescriptionKey": "/Windows/Timeline/ZoomIn",
+					"boundKey": "+",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "alt shift",
+					"actionDescriptionKey": "/Windows/Timeline/ZoomOut",
+					"boundKey": "_",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Timeline/PanUp",
+					"boundKey": "=",
+					"platform": "mac",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift cmd-ctrl",
+					"actionDescriptionKey": "/Windows/Timeline/PanDown",
+					"boundKey": "-",
+					"platform": "mac",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift",
+					"actionDescriptionKey": "/Windows/Timeline/AutoZoom",
+					"boundKey": "~",
+					"platform": "mac",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift alt",
+					"actionDescriptionKey": "/Windows/Timeline/PanUp",
+					"boundKey": "a",
+					"platform": "win",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift alt",
+					"actionDescriptionKey": "/Windows/Timeline/PanDown",
+					"boundKey": "z",
+					"platform": "win",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "shift alt",
+					"actionDescriptionKey": "/Windows/Timeline/AutoZoom",
+					"boundKey": "x",
+					"platform": "win",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "[TOOLGROUP]/Tools/Group/Draw",
+			"Bindings": [
+				{
+					"modifiers_User": "",
+					"actionDescriptionKey": "[TOOL]LM_SelectPoints",
+					"boundKey": "G",
+					"boundKey_User": "s",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "",
+					"actionDescriptionKey": "[TOOL]LM_TransformPoints",
+					"boundKey": "T",
+					"boundKey_User": "x",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_AddPoint",
+					"boundKey": "A",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_Freehand",
+					"boundKey": "F",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_Brush",
+					"boundKey": "J",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "",
+					"actionDescriptionKey": "[TOOL]LM_Shape",
+					"boundKey": "S",
+					"boundKey_User": "d",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_Eraser",
+					"boundKey": "E",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_PointReduction",
+					"boundKey": "R",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_ScatterBrush",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "shift",
+					"actionDescriptionKey": "[TOOL]LM_DeleteEdge",
+					"boundKey": "D",
+					"boundKey_User": "D",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_Curvature",
+					"boundKey": "C",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "",
+					"actionDescriptionKey": "[TOOL]LM_Magnet",
+					"boundKey": "X",
+					"boundKey_User": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_PerspectivePoints",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_ShearPoints",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_BendPoints",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_Noise",
+					"boundKey": "N",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "[TOOLGROUP]/Tools/Group/Fill",
+			"Bindings": [
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_SelectShape",
+					"boundKey": "Q",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_CreateShape",
+					"boundKey": "U",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_PaintBucket",
+					"boundKey": "P",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_DeleteShape",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_LineWidth",
+					"boundKey": "W",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_HideEdge",
+					"boundKey": "H",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_CurveExposure",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_CurveProfile",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_ColorPoints",
+					"boundKey": "K",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "[TOOLGROUP]/Tools/Group/Special",
+			"Bindings": [
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_SwitchLayer",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_ParticleLayer",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_Crop",
+					"boundKey": "C",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_ImageMasking",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_VideoTracking",
+					"boundKey": "A",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_Poser",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "[TOOLGROUP]/Tools/Group/Bone",
+			"Bindings": [
+				{
+					"modifiers_User": "",
+					"actionDescriptionKey": "[TOOL]LM_SelectBone",
+					"boundKey": "B",
+					"boundKey_User": "s",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "",
+					"actionDescriptionKey": "[TOOL]LM_TransformBone",
+					"boundKey": "T",
+					"boundKey_User": "x",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_AddBone",
+					"boundKey": "A",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "",
+					"actionDescriptionKey": "[TOOL]LM_BoneGroups",
+					"boundKey_User": "v",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_ReparentBone",
+					"boundKey": "P",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "",
+					"actionDescriptionKey": "[TOOL]LM_BoneStrength",
+					"boundKey": "S",
+					"boundKey_User": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_ManipulateBones",
+					"boundKey": "Z",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "shift",
+					"actionDescriptionKey": "[TOOL]LM_BindLayer",
+					"boundKey_User": "B",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_BindPoints",
+					"boundKey": "I",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_OffsetBone",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_BonePhysics",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_SketchBones",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "shift",
+					"actionDescriptionKey": "[TOOL]LM_Wind",
+					"boundKey_User": "W",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "[TOOLGROUP]/Tools/Group/Layer",
+			"Bindings": [
+				{
+					"modifiers_User": "shift",
+					"actionDescriptionKey": "[TOOL]LM_TransformLayer",
+					"boundKey": "M",
+					"boundKey_User": "X",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_SetOrigin",
+					"boundKey": "O",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_FollowCurve",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_RotateLayerXY",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_ShearLayer",
+					"boundKey": "",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "shift",
+					"actionDescriptionKey": "[TOOL]LM_ShapePicker",
+					"boundKey_User": "S",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_InsertText",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers_User": "shift",
+					"actionDescriptionKey": "[TOOL]LM_Eyedropper",
+					"boundKey": "L",
+					"boundKey_User": "E",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "[TOOLGROUP]/Tools/Group/Camera",
+			"Bindings": [
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_TrackCamera",
+					"boundKey": "4",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_ZoomCamera",
+					"boundKey": "5",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_RollCamera",
+					"boundKey": "6",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_PanTiltCamera",
+					"boundKey": "7",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				}
+			]
+		},
+		{
+			"group_platform": "",
+			"group_product": "",
+			"nodeTypeBranch": true,
+			"groupNameKey": "[TOOLGROUP]/Tools/Group/Workspace",
+			"Bindings": [
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_PanW",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_ZoomW",
+					"boundKey": "",
+					"platform": "",
+					"product": "",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_RotateW",
+					"boundKey": "8",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				},
+				{
+					"modifiers": "",
+					"actionDescriptionKey": "[TOOL]LM_OrbitW",
+					"boundKey": "9",
+					"platform": "",
+					"product": "Pro",
+					"readonly": false,
+					"nodeTypeBranch": false
+				}
+			]
+		}
+	]
+}
